@@ -3,7 +3,7 @@ from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import authenticate , login
 from rest_framework.views import APIView
 from rest_framework.response import Response
-
+from rest_framework import viewsets
 from . import serializers
 from rest_framework import status
 
@@ -30,22 +30,44 @@ class HelloApiView(APIView):
         else:
             return Response(serializer.errors , status=status.HTTP_400_BAD_REQUEST)
 
-        ###################################
+
     def put(self,request ,pk=None):
         """Handles updating an object ."""
         return Response({'method': 'put'})
-##########################################
-    def patch (self , request , pk=None) :
-     """Patch request , only updates fields provided in the request ."""
 
-     return Response({'method': 'patch'})
-    #######################################
+    def patch(self, request, pk=None):
+        """Patch request , only updates fields provided in the request ."""
+
+        return Response({'method': 'patch'})
+
     def delete(self, request, pk=None):
-        """Delete an object."""
+        """Deletes an object."""
+
         return Response({'method': 'delete'})
-#######################################
-def index(request):
-    return render(request , 'scolarite/index.html')
+
+##################################################################
+
+class HelloViewSet(viewsets.ViewSet):
+
+            def list(self, request):
+                 """Return a hello message"""
+                 a_viewset = [
+                      'Uses actions (list , create ,retrieve ,update , partial_update )',
+                      'Automatically maps to URLs using Routers ',
+                      'provides mor functionality with less code .',
+                               ]
+
+                 return Response({'message': 'Hello', 'a_viewset': a_viewset})
+
+
+
+
+
+##############################################################################
+
+class general :
+             def index(request):
+                return render(request , 'scolarite/index.html')
 ##################
 
 def inscrire(request):

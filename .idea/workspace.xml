@@ -2,36 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dc46308-f0f7-4f76-b584-c82280e24ab3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/website.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scolarite/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scolarite/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scolarite/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scolarite/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scolarite/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scolarite/migrations/0002_delete_compte.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scolarite/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scolarite/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scolarite/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scolarite/static/scolarite/images/aide-scolarite.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scolarite/static/scolarite/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scolarite/templates/registration/inscrire.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scolarite/templates/registration/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scolarite/templates/scolarite/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scolarite/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scolarite/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scolarite/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scolarite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/scolarite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scolarite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/scolarite/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,28 +67,28 @@
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="6" />
+          <entry key="py" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="6" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
           <entry key="md" value="9" />
-          <entry key="py" value="1419" />
+          <entry key="py" value="2601" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="9" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="1419" />
+          <entry key="Python" value="2601" />
         </counts>
       </usages-collector>
     </session>
@@ -126,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scolarite/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+            <state relative-caret-position="204">
+              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -150,12 +122,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scolarite/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="51" column="32" lean-forward="true" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+            <state relative-caret-position="325">
+              <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-                <marker date="1575488574605" expanded="true" signature="1499:1778" ph="..." />
-                <marker date="1575488574605" expanded="true" signature="1837:2488" ph="..." />
+                <marker date="1575492507701" expanded="true" signature="1568:1690" ph="..." />
+                <marker date="1575492507701" expanded="true" signature="1690:2255" ph="..." />
+                <marker date="1575492507701" expanded="true" signature="1833:1846" ph="..." />
+                <marker date="1575492507701" expanded="true" signature="2383:2388" ph="..." />
+                <marker date="1575492507701" expanded="true" signature="2383:2392" ph="..." />
+                <marker date="1575492507701" expanded="true" signature="2383:2400" ph="..." />
+                <marker date="1575492507701" expanded="true" signature="2383:3046" ph="..." />
               </folding>
             </state>
           </provider>
@@ -204,8 +181,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/website/settings.py" />
         <option value="$PROJECT_DIR$/website/urls.py" />
-        <option value="$PROJECT_DIR$/scolarite/urls.py" />
         <option value="$PROJECT_DIR$/scolarite/serializers.py" />
+        <option value="$PROJECT_DIR$/scolarite/urls.py" />
         <option value="$PROJECT_DIR$/scolarite/views.py" />
       </list>
     </option>
@@ -216,9 +193,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="474" />
-    <option name="y" value="49" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="315" />
+    <option name="y" value="115" />
     <option name="width" value="913" />
     <option name="height" value="788" />
   </component>
@@ -331,10 +308,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="474" y="49" width="913" height="788" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31184056" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20121029" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -348,7 +325,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.1437309" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.15409836" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -411,13 +388,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scolarite/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scolarite/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -455,6 +425,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scolarite/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <marker date="1575450192423" expanded="true" signature="86:91" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scolarite/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/website/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -467,32 +454,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scolarite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        <state relative-caret-position="204">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scolarite/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <marker date="1575450192423" expanded="true" signature="86:91" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scolarite/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="51" column="32" lean-forward="true" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+        <state relative-caret-position="325">
+          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-            <marker date="1575488574605" expanded="true" signature="1499:1778" ph="..." />
-            <marker date="1575488574605" expanded="true" signature="1837:2488" ph="..." />
+            <marker date="1575492507701" expanded="true" signature="1568:1690" ph="..." />
+            <marker date="1575492507701" expanded="true" signature="1690:2255" ph="..." />
+            <marker date="1575492507701" expanded="true" signature="1833:1846" ph="..." />
+            <marker date="1575492507701" expanded="true" signature="2383:2388" ph="..." />
+            <marker date="1575492507701" expanded="true" signature="2383:2392" ph="..." />
+            <marker date="1575492507701" expanded="true" signature="2383:2400" ph="..." />
+            <marker date="1575492507701" expanded="true" signature="2383:3046" ph="..." />
           </folding>
         </state>
       </provider>
