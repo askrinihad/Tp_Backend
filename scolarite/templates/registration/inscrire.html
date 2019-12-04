@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+</head>
+<body>
+    <h1>La page d'inscription </h1>
+    <form method="post" action="{% url 'inscrire' %}">
+        {% csrf_token %}
+        {% if form.errors %}
+        <p>Il ya une erreur dans form </p>
+        {% endif %}
+        {{ form }}
+    <input type="submit" value="Inscrire">
+
+
+    </form>
+
+</body>
+</html>
