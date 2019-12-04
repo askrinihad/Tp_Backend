@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dc46308-f0f7-4f76-b584-c82280e24ab3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/scolarite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/scolarite/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scolarite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/scolarite/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,14 +80,14 @@
         <counts>
           <entry key="dummy" value="3" />
           <entry key="md" value="9" />
-          <entry key="py" value="2601" />
+          <entry key="py" value="3551" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="9" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="2601" />
+          <entry key="Python" value="3551" />
         </counts>
       </usages-collector>
     </session>
@@ -122,17 +121,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scolarite/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+            <state relative-caret-position="370">
+              <caret line="97" column="8" lean-forward="true" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="8" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-                <marker date="1575492507701" expanded="true" signature="1568:1690" ph="..." />
-                <marker date="1575492507701" expanded="true" signature="1690:2255" ph="..." />
-                <marker date="1575492507701" expanded="true" signature="1833:1846" ph="..." />
-                <marker date="1575492507701" expanded="true" signature="2383:2388" ph="..." />
-                <marker date="1575492507701" expanded="true" signature="2383:2392" ph="..." />
-                <marker date="1575492507701" expanded="true" signature="2383:2400" ph="..." />
-                <marker date="1575492507701" expanded="true" signature="2383:3046" ph="..." />
+                <marker date="1575495894381" expanded="true" signature="1568:1690" ph="..." />
+                <marker date="1575495894381" expanded="true" signature="1690:3442" ph="..." />
+                <marker date="1575495894381" expanded="true" signature="1903:1916" ph="..." />
+                <marker date="1575495894381" expanded="true" signature="3335:3340" ph="..." />
+                <marker date="1575495894381" expanded="true" signature="3564:3569" ph="..." />
+                <marker date="1575495894381" expanded="true" signature="3564:3573" ph="..." />
+                <marker date="1575495894381" expanded="true" signature="3564:3581" ph="..." />
+                <marker date="1575495894381" expanded="true" signature="3564:4227" ph="..." />
               </folding>
             </state>
           </provider>
@@ -193,9 +193,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="315" />
-    <option name="y" value="115" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="441" />
+    <option name="y" value="36" />
     <option name="width" value="913" />
     <option name="height" value="788" />
   </component>
@@ -311,7 +311,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20121029" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14069591" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -464,17 +464,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scolarite/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+        <state relative-caret-position="370">
+          <caret line="97" column="8" lean-forward="true" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="8" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-            <marker date="1575492507701" expanded="true" signature="1568:1690" ph="..." />
-            <marker date="1575492507701" expanded="true" signature="1690:2255" ph="..." />
-            <marker date="1575492507701" expanded="true" signature="1833:1846" ph="..." />
-            <marker date="1575492507701" expanded="true" signature="2383:2388" ph="..." />
-            <marker date="1575492507701" expanded="true" signature="2383:2392" ph="..." />
-            <marker date="1575492507701" expanded="true" signature="2383:2400" ph="..." />
-            <marker date="1575492507701" expanded="true" signature="2383:3046" ph="..." />
+            <marker date="1575495894381" expanded="true" signature="1568:1690" ph="..." />
+            <marker date="1575495894381" expanded="true" signature="1690:3442" ph="..." />
+            <marker date="1575495894381" expanded="true" signature="1903:1916" ph="..." />
+            <marker date="1575495894381" expanded="true" signature="3335:3340" ph="..." />
+            <marker date="1575495894381" expanded="true" signature="3564:3569" ph="..." />
+            <marker date="1575495894381" expanded="true" signature="3564:3573" ph="..." />
+            <marker date="1575495894381" expanded="true" signature="3564:3581" ph="..." />
+            <marker date="1575495894381" expanded="true" signature="3564:4227" ph="..." />
           </folding>
         </state>
       </provider>
