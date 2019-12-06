@@ -3,16 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3dc46308-f0f7-4f76-b584-c82280e24ab3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scolarite/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/scolarite/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/scolarite/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scolarite/migrations/0002_delete_compte.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scolarite/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/scolarite/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scolarite/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/scolarite/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scolarite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/scolarite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scolarite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/scolarite/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,28 +82,28 @@
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="33" />
+          <entry key="py" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="33" />
+          <entry key="Python" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
           <entry key="md" value="9" />
-          <entry key="py" value="5683" />
+          <entry key="py" value="5684" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="9" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="5683" />
+          <entry key="Python" value="5684" />
         </counts>
       </usages-collector>
     </session>
@@ -130,28 +122,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scolarite/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-                <marker date="1575498171613" expanded="true" signature="1589:1711" ph="..." />
-                <marker date="1575498171613" expanded="true" signature="1711:3455" ph="..." />
-                <marker date="1575498171613" expanded="true" signature="1924:1937" ph="..." />
-                <marker date="1575498171613" expanded="true" signature="3356:3361" ph="..." />
-                <marker date="1575498171613" expanded="true" signature="3582:3744" ph="..." />
-                <marker date="1575498171613" expanded="true" signature="3786:3791" ph="..." />
-                <marker date="1575498171613" expanded="true" signature="3786:3796" ph="..." />
-                <marker date="1575498171613" expanded="true" signature="3786:3804" ph="..." />
-                <marker date="1575498171613" expanded="true" signature="3786:4464" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scolarite/admin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -160,10 +131,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
+            <state relative-caret-position="52">
               <caret line="122" column="59" lean-forward="true" selection-start-line="122" selection-start-column="59" selection-end-line="122" selection-end-column="59" />
             </state>
           </provider>
@@ -240,9 +211,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="393" />
+    <option name="y" value="217" />
     <option name="width" value="909" />
     <option name="height" value="510" />
   </component>
@@ -268,7 +239,8 @@
             <path>
               <item name="website" type="b2602c69:ProjectViewProjectNode" />
               <item name="website" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="scolarite" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -335,9 +307,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="409" y="155" width="909" height="510" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16187595" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25206125" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -351,7 +324,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50058895" side_tool="true" weight="0.32978722" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49941108" visible="true" weight="0.27868852" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49941108" visible="true" weight="0.45212767" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -465,25 +438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scolarite/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1575498171613" expanded="true" signature="1589:1711" ph="..." />
-            <marker date="1575498171613" expanded="true" signature="1711:3455" ph="..." />
-            <marker date="1575498171613" expanded="true" signature="1924:1937" ph="..." />
-            <marker date="1575498171613" expanded="true" signature="3356:3361" ph="..." />
-            <marker date="1575498171613" expanded="true" signature="3582:3744" ph="..." />
-            <marker date="1575498171613" expanded="true" signature="3786:3791" ph="..." />
-            <marker date="1575498171613" expanded="true" signature="3786:3796" ph="..." />
-            <marker date="1575498171613" expanded="true" signature="3786:3804" ph="..." />
-            <marker date="1575498171613" expanded="true" signature="3786:4464" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38-32/Lib/site-packages/django/core/management/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
@@ -526,23 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scolarite/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scolarite/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -579,8 +516,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/website/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
+        <state relative-caret-position="52">
           <caret line="122" column="59" lean-forward="true" selection-start-line="122" selection-start-column="59" selection-end-line="122" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38-32/Lib/site-packages/django/db/models/query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#85#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scolarite/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1575498171613" expanded="true" signature="1589:1711" ph="..." />
+            <marker date="1575498171613" expanded="true" signature="1711:3455" ph="..." />
+            <marker date="1575498171613" expanded="true" signature="1924:1937" ph="..." />
+            <marker date="1575498171613" expanded="true" signature="3356:3361" ph="..." />
+            <marker date="1575498171613" expanded="true" signature="3582:3744" ph="..." />
+            <marker date="1575498171613" expanded="true" signature="3786:3791" ph="..." />
+            <marker date="1575498171613" expanded="true" signature="3786:3796" ph="..." />
+            <marker date="1575498171613" expanded="true" signature="3786:3804" ph="..." />
+            <marker date="1575498171613" expanded="true" signature="3786:4464" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scolarite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scolarite/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
         </state>
       </provider>
     </entry>
