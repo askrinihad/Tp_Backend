@@ -1,12 +1,16 @@
 from django.shortcuts import render
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import authenticate , login
+from rest_framework import viewsets
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from rest_framework import viewsets
-from . import serializers
 from rest_framework import status
+from rest_framework.authentication import TokenAuthentication
+
+
+from . import serializers
 from . import models
+from . import permissions
 
 class HelloApiView(APIView):
     """test api view"""
@@ -102,6 +106,8 @@ class UserProfileViewSet(viewsets.ModelViewSet):
       """Handles creating and updating profiles"""
       serializer_class=serializers.UserProfileSerializer
       queryset = models.UserProfile.objects.all()
+      authenticate_classes = (TokenAuthentication,)
+      permission_classes = (permissions.UpdateOwnProfile,)
 
 
 
