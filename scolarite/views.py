@@ -6,6 +6,7 @@ from rest_framework.response import Response
 from rest_framework import viewsets
 from . import serializers
 from rest_framework import status
+from . import models
 
 class HelloApiView(APIView):
     """test api view"""
@@ -95,33 +96,37 @@ class HelloViewSet(viewsets.ViewSet):
          """Handles removing an object ."""
 
          return Response({'http_method': 'DELETE'})
-        
+
 ##############################################################################
+class UserProfileViewSet(viewsets.ModelViewSet):
+      """Handles creating and updating profiles"""
+      serializer_class=serializers.UserProfileSerializer
+      queryset = models.UserProfile.objects.all()
 
 
 
-class general :
+#class general :
 
-    def index(request):
-                return render(request , 'scolarite/index.html')
+ #   def index(request):
+     #           return render(request , 'scolarite/index.html')
 ##################
 
-def inscrire(request):
-    if request.method == 'POST':
-        form = UserCreationForm(request.POST)
+#def inscrire(request):
+ #   if request.method == 'POST':
+  #      form = UserCreationForm(request.POST)
 
 
-        if form.is_valid():
-            form.save()
-            username = form.cleaned_data['username']
-            password = form.cleaned_data['password1']
-            user =authenticate(username=username , password=password)
-            login(request , user)
-            return redirect('index')#redirect in etudiant or enseignant
-    else:
-        form= UserCreationForm()
+   #     if form.is_valid():
+    #        form.save()
+     #       username = form.cleaned_data['username']
+       #     password = form.cleaned_data['password1']
+        #    user =authenticate(username=username , password=password)
+        #    login(request , user)
+         #   return redirect('index')#redirect in etudiant or enseignant
+    #else:
+     #   form= UserCreationForm()
 
-    context={'form' : form}
-    return render(request, 'registration/inscrire.html', context)
+    #context={'form' : form}
+    #return render(request, 'registration/inscrire.html', context)
 
 

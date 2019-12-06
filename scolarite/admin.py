@@ -11,4 +11,7 @@ from.models import Module
 admin.site.register(Module)
 from.models import Charge_scolarite
 admin.site.register(Charge_scolarite)
+from .models import UserProfile
+admin.site.register(UserProfile)
+
 
