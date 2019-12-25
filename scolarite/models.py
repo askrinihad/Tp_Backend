@@ -95,3 +95,17 @@ class Charge_scolarite(models.Model):
     nom_ch=models.CharField(max_length=15)
     prenom_ch = models.CharField(max_length=15)
     photo_ch = models.CharField(max_length=1000)
+
+
+class profileFeedItem(models.Model):
+     """Profile status update"""
+
+
+     user_profile = models.ForeignKey('UserProfile' , on_delete=models.CASCADE )
+     status_text = models.CharField(max_length=255)
+     created_on = models.DateTimeField(auto_now_add= True)
+
+     def __str__(self):
+         """return the model as a string"""
+         return self.status_text
+
