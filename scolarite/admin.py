@@ -10,5 +10,5 @@ admin.site.register(models.Enseignant)
 admin.site.register(models.Module)
 admin.site.register(models.Charge_scolarite)
 admin.site.register(models.UserProfile)
-admin.site.register(models.profileFeedItem)
+admin.site.register(models.ProfileFeedItem)
 
