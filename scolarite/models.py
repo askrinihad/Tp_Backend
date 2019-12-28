@@ -75,7 +75,8 @@ class Module(models.Model):
     sem=models.IntegerField()
     nom=models.CharField(max_length=200)
 
-
+class Verification(models.Model): # Contient tout les matricules des : etudiants , enseignants , charge de scolarite
+      matricule = models.CharField(max_length=255)
 
 class Enseignant(models.Model):
         code_ens = models.CharField(max_length=8)

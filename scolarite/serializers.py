@@ -24,6 +24,11 @@ class UserProfileSerializer(serializers.ModelSerializer):
         user.set_password(validated_data['password'])
         user.save()
         return user
+class VerificationSerializer(serializers.ModelSerializer):
+
+     class Meta :
+       model = models.Verification
+       field = ('matricule')
 class SaisirNote(serializers.ModelSerializer):
     """saisir la note """
 
