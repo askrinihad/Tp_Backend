@@ -1,3 +1,5 @@
+from django.contrib import auth
+from django.http import HttpResponseRedirect
 from django.shortcuts import render
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import authenticate , login
@@ -15,6 +17,8 @@ from rest_framework.permissions import IsAuthenticated
 from . import serializers
 from . import models
 from . import permissions
+from .forms import UserForm
+
 
 class HelloApiView(APIView):
     """test api view"""
@@ -113,12 +117,13 @@ class UserProfileViewSet(viewsets.ModelViewSet):
       authenticate_classes = (TokenAuthentication,)
       permission_classes = (permissions.UpdateOwnProfile,)
       filter_backends = (filters.SearchFilter,)
-      search_fields = ('name' , 'email' ,)
+      search_fields = ('name' , 'email' ,'label')
 
 
 class LoginViewSet(viewsets.ViewSet) :
     """Checks email and password and returns an auth token."""
     serializer_class = AuthTokenSerializer
+
 
     def create(self , request):
        """Use the ObtainAuthToken APIView to validate and create a token"""
@@ -137,10 +142,22 @@ class UserProfileFeedViewSet(viewsets.ModelViewSet):
          """Sets the user profile to the logged in user"""
 
          serializer.save(user_profile=self.request.user)
-#class general :
 
- #   def index(request):
-     #           return render(request , 'scolarite/index.html')
+#class general (viewsets.ModelViewSet):
+
+#   def index(request):
+ #       return render(request , 'scolarite/index.html')
+#class EtudiantForm (viewsets.ModelViewSet):
+ #  def Et_page(request):
+  #     return render(request , 'scolarite/Et_page.html')
+#class EnseignantForm(viewsets.ModelViewSet) :
+
+ #  def En_page(request):
+ #      return render(request , 'scolarite/En_page.html')
+
+#class ChargeForm(viewsets.ModelViewSet):
+#   def Ch_page(request):
+ #      return render(request , 'scolarite/Ch_page.html')
 ##################
 
 #def inscrire(request):
@@ -151,12 +168,14 @@ class UserProfileFeedViewSet(viewsets.ModelViewSet):
    #     if form.is_valid():
     #        form.save()
      #       username = form.cleaned_data['username']
-       #     password = form.cleaned_data['password1']
-        #    user =authenticate(username=username , password=password)
-        #    login(request , user)
-         #   return redirect('index')#redirect in etudiant or enseignant
+      #      password = form.cleaned_data['password1']
+       #     email = form.cleaned_data['email']
+        #    user =authenticate(username=username , password=password , email=email)
+         #   login(request , user)
+
+          #  return redirect ('index')#redirect in etudiant or enseignant
     #else:
-     #   form= UserCreationForm()
+     #  form= UserCreationForm()
 
     #context={'form' : form}
     #return render(request, 'registration/inscrire.html', context)

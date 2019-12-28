@@ -39,6 +39,9 @@ class UserProfile(AbstractBaseUser , PermissionsMixin):
     """Represents user profile inside our system"""
     email = models.EmailField(max_length=255 , unique=True)
     name = models.CharField(max_length=255)
+    CHOICES = [('Etudiant', 'Etudiant'),
+               ('Enseignant', 'Enseignant'), ('Charge de scolarite', 'Charge de scolarite') ,]
+    label = models.CharField(max_length=30 , choices=CHOICES , ) #etudiant , enseignant ; charge de scolarite
     is_active = models.BooleanField(default=True)
     is_staff=models.BooleanField(default=False)
 
@@ -57,8 +60,8 @@ class UserProfile(AbstractBaseUser , PermissionsMixin):
 
 class Etudiant(models.Model):
     matricule=models.CharField(max_length=8)
-    nom=models.CharField(max_length=15)
-    prenom = models.CharField(max_length=15)
+    nom=models.CharField(max_length=30)
+    prenom = models.CharField(max_length=30)
     sect=models.CharField(max_length=5)
     groupe=models.IntegerField()
     photo_et=models.CharField(max_length=1000)
@@ -70,7 +73,7 @@ class Module(models.Model):
     code_mod=models.CharField(max_length=8)
     niv=models.CharField(max_length=3)
     sem=models.IntegerField()
-    nom=models.CharField(max_length=15)
+    nom=models.CharField(max_length=200)
 
 
 

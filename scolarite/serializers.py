@@ -11,7 +11,7 @@ class UserProfileSerializer(serializers.ModelSerializer):
 
     class Meta :
         model = models.UserProfile
-        fields= ('id' , 'name' , 'email', 'password')
+        fields= ('id' , 'name' , 'email', 'password','label')
         extra_kwargs = {'password' : {'write_only' :True}}
 
     def create(self, validated_data):
@@ -24,6 +24,12 @@ class UserProfileSerializer(serializers.ModelSerializer):
         user.set_password(validated_data['password'])
         user.save()
         return user
+class SaisirNote(serializers.ModelSerializer):
+    """saisir la note """
+
+
+
+
 class ProfileFeedItemSerializer(serializers.ModelSerializer):
      """A serializer for profile feed items."""
 

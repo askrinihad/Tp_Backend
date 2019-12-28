@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dc46308-f0f7-4f76-b584-c82280e24ab3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/website.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scolarite/templates/pages/Ch_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scolarite/templates/pages/En_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scolarite/templates/pages/Et_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scolarite/templates/registration/verification.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scolarite/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/scolarite/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scolarite/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/scolarite/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scolarite/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scolarite/migrations/0002_profilefeeditem.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/scolarite/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/scolarite/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scolarite/permissions.py" beforeDir="false" afterPath="$PROJECT_DIR$/scolarite/permissions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scolarite/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/scolarite/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scolarite/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/scolarite/templates/registration/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scolarite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/scolarite/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scolarite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/scolarite/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,10 +134,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="268" y="11" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1577292873546" />
-    <state x="386" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1577288701466">
+    <state x="386" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1577462932640">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="386" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577288701466" />
+    <state x="386" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577462932640" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
