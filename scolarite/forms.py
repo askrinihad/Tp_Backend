@@ -12,7 +12,7 @@ class UserForm(auth.forms.AuthenticationForm):
 #    label = forms.ChoiceField(choices=CHOICES, widget=forms.RadioSelect)
     class Meta :
         model = User
-        fields=['username','password' , 'label']
+        fields=['username','password']
 
    # email = forms.EmailField(widget=forms.EmailInput)
   #  CHOICES= (('Etudiant', 'Etudiant'),('Enseignant', 'Enseignant'),('Charge de scolarite', 'Charge de scolarite'),)

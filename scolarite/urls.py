@@ -12,6 +12,8 @@ router.register('hello-viewset', views.HelloViewSet , base_name = 'hello-viewset
 router.register('profile', views.UserProfileViewSet)
 router.register('login' , views.LoginViewSet , base_name='login')
 router.register('feed' , views.UserProfileFeedViewSet)
+router.register('Verification' ,views.VerficationViewSet)
+router.register('Recherche' ,views.EtudiantAPIView)
 
 urlpatterns = [
 

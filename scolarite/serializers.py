@@ -6,12 +6,20 @@ class HelloSerializer(serializers.Serializer):
 
     name=serializers.CharField(max_length=10)
 
+
+#class LoginSerializer(serializers.Serializer):
+
+   # class Meta :
+   #     model = models.Login
+    #    fields =('login' , 'mot_de_passe' , 'type' ,)
+     #   extra_kwargs = {'mot_de_passe': {'write_only': True}}
+
 class UserProfileSerializer(serializers.ModelSerializer):
     """A serializer for our user profile objects ."""
 
     class Meta :
         model = models.UserProfile
-        fields= ('id' , 'name' , 'email', 'password','label')
+        fields= ('id' , 'name' , 'email', 'password','type')
         extra_kwargs = {'password' : {'write_only' :True}}
 
     def create(self, validated_data):
@@ -19,7 +27,8 @@ class UserProfileSerializer(serializers.ModelSerializer):
 
         user = models.UserProfile(
             email= validated_data['email'] ,
-            name = validated_data['name']
+            name = validated_data['name'] ,
+            label = validated_data['label']
         )
         user.set_password(validated_data['password'])
         user.save()
@@ -28,9 +37,9 @@ class VerificationSerializer(serializers.ModelSerializer):
 
      class Meta :
        model = models.Verification
-       field = ('matricule')
-class SaisirNote(serializers.ModelSerializer):
-    """saisir la note """
+       fields = ('id' , 'matricule')
+
+
 
 
 
@@ -42,3 +51,14 @@ class ProfileFeedItemSerializer(serializers.ModelSerializer):
          model = models.ProfileFeedItem
          fields = ('id' , 'user_profile' , 'status_text' , 'created_on')
          extra_kwargs = {'user_profile': {'read_only' : True}}
+
+
+
+#############NIHAL##########################"
+class EtudiantSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = models.Etudiant
+        fields =('id' , 'matricule')
+
+
+    #########################################

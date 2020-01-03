@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dc46308-f0f7-4f76-b584-c82280e24ab3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/website.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scolarite/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/scolarite/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scolarite/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/scolarite/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scolarite/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/scolarite/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scolarite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/scolarite/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scolarite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/scolarite/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +65,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="website" type="Python.DjangoServer" factoryName="Django server">
@@ -115,18 +121,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="213" key="FileChooserDialogImpl" timestamp="1577287326998">
+    <state x="499" y="213" key="FileChooserDialogImpl" timestamp="1578054616218">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="499" y="213" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1577287326998" />
-    <state x="268" y="11" key="SettingsEditor" timestamp="1577292873546">
+    <state x="499" y="213" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578054616218" />
+    <state x="268" y="11" key="SettingsEditor" timestamp="1577977969893">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="268" y="11" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1577292873546" />
-    <state x="386" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1577462932640">
+    <state x="268" y="11" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1577977969893" />
+    <state x="386" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1578090453749">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="386" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577462932640" />
+    <state x="386" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578090453749" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1577977921839">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1577977921839" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

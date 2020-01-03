@@ -25,12 +25,20 @@ class UserProfileManager(BaseUserManager):
 
     def create_superuser(self , email , name , password):
         """Creates and saves a new superuser with given details"""
-        user = self.create_user(email , name , password)
+        user = self.create_user(email , name , password )
         user.is_superuser =True
         user.is_staff = True
 
         user.save(using=self._db)
         return user
+
+#class Login(models.Model):
+ #   login =models.CharField(max_length=255)
+  #  mot_de_passe =models.CharField(max_length=30)
+   # CHOICES = [('Etudiant', 'Etudiant'),
+    #           ('Enseignant', 'Enseignant'), ('Charge de scolarite', 'Charge de scolarite'), ]
+    #type = models.CharField(max_length=30, choices=CHOICES, )  # etudiant , enseignant ; charge de scolarite
+
 
 
 
@@ -41,7 +49,7 @@ class UserProfile(AbstractBaseUser , PermissionsMixin):
     name = models.CharField(max_length=255)
     CHOICES = [('Etudiant', 'Etudiant'),
                ('Enseignant', 'Enseignant'), ('Charge de scolarite', 'Charge de scolarite') ,]
-    label = models.CharField(max_length=30 , choices=CHOICES , ) #etudiant , enseignant ; charge de scolarite
+    type = models.CharField(max_length=30 , choices=CHOICES , ) #etudiant , enseignant ; charge de scolarite
     is_active = models.BooleanField(default=True)
     is_staff=models.BooleanField(default=False)
 
@@ -77,6 +85,10 @@ class Module(models.Model):
 
 class Verification(models.Model): # Contient tout les matricules des : etudiants , enseignants , charge de scolarite
       matricule = models.CharField(max_length=255)
+
+      def __str__(self):
+          """django uses this when it needs to convert the object to a string"""
+          return self.matricule
 
 class Enseignant(models.Model):
         code_ens = models.CharField(max_length=8)

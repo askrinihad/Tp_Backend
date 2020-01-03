@@ -13,6 +13,9 @@ from rest_framework.authtoken.serializers import AuthTokenSerializer
 from rest_framework.authtoken.views import ObtainAuthToken
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
 from rest_framework.permissions import IsAuthenticated
+############Nihal#################"
+from rest_framework import generics, filters
+#######################
 
 from . import serializers
 from . import models
@@ -117,20 +120,26 @@ class UserProfileViewSet(viewsets.ModelViewSet):
       authenticate_classes = (TokenAuthentication,)
       permission_classes = (permissions.UpdateOwnProfile,)
       filter_backends = (filters.SearchFilter,)
-      search_fields = ('name' , 'email' ,'label')
+      search_fields = ('name' , 'email' ,'type' ,)
 class VerficationViewSet(viewsets.ModelViewSet):
       serializer_class = serializers.VerificationSerializer
-      queryset = models.Verification
+      queryset = models.Verification.objects.all()
+      def Post(self , request):
+          serializer = serializers.VerificationSerializer(data=request.data)
+          if serializer.is_valid():
+             matricule = serializer.data.get('matricule')
+          return HttpResponseRedirect( "http://127.0.0.1:8000/scolarite/profile/")
+
 
 class LoginViewSet(viewsets.ViewSet) :
     """Checks email and password and returns an auth token."""
     serializer_class = AuthTokenSerializer
-
+   # queryset = models.Login.objects.all()
 
     def create(self , request):
-       """Use the ObtainAuthToken APIView to validate and create a token"""
+      """Use the ObtainAuthToken APIView to validate and create a token"""
 
-       return ObtainAuthToken().post(request)
+      return ObtainAuthToken().post(request)
 
 class UserProfileFeedViewSet(viewsets.ModelViewSet):
      """Handles ccreating , reading and updating profile feed items ."""
@@ -144,6 +153,33 @@ class UserProfileFeedViewSet(viewsets.ModelViewSet):
          """Sets the user profile to the logged in user"""
 
          serializer.save(user_profile=self.request.user)
+
+
+####"NIHAL######################
+class EtudiantAPIView (viewsets.ModelViewSet):
+
+     search_fields = ('matricule')
+     filter_backends = (filters.SearchFilter)
+     queryset = models.Etudiant.objects.all()
+     serializer_class= serializers.EtudiantSerializer
+
+     @classmethod
+     def get_extra_actions(cls):
+         return []
+
+    # def getMatricule(self, request , format =None):
+     #    mat = models.Etudiant.objects.get(pk=)
+
+      #   return request
+
+
+
+
+
+
+
+
+######fin NIHAL#############################
 
 #class general (viewsets.ModelViewSet):
 
@@ -172,7 +208,8 @@ class UserProfileFeedViewSet(viewsets.ModelViewSet):
      #       username = form.cleaned_data['username']
       #      password = form.cleaned_data['password1']
        #     email = form.cleaned_data['email']
-        #    user =authenticate(username=username , password=password , email=email)
+            # type =  form.cleaned_data['type']
+        #    user =authenticate(username=username , password=password , email=email , type = type)
          #   login(request , user)
 
           #  return redirect ('index')#redirect in etudiant or enseignant
